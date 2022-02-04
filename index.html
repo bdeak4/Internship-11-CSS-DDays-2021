@@ -8,10 +8,42 @@
     <title>Dump Days</title>
     <link rel="stylesheet" href="styles/fonts.css" />
     <link rel="stylesheet" href="styles/global-styles.css" />
+    <link rel="stylesheet" href="styles/navigation.css" />
   </head>
 
   <body>
-    dump days 2022
-    <h1>Fuse V.2 Display</h1>
+    <div class="nav layout-spacing">
+      <a href="#">
+        <img
+          src="./assets/logotype-white.png"
+          alt="logo"
+          width="142"
+          height="48"
+        />
+      </a>
+      <div class="nav__links">
+        <a href="#" class="nav__link">Konferencija</a>
+        <a href="#" class="nav__link">Raspored</a>
+        <a href="#" class="nav__link">Sponzori</a>
+        <a href="#" class="nav__link">Kontakt</a>
+      </div>
+    </div>
+    <div class="nav mobile layout-spacing">
+      <a href="#">
+        <img src="./assets/logo-white.png" alt="logo" width="26" height="31" />
+      </a>
+      <input type="checkbox" id="menu" />
+      <label for="menu" class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </label>
+      <div class="nav__popup">
+        <a href="#" class="nav__link">Konferencija</a>
+        <a href="#" class="nav__link">Raspored</a>
+        <a href="#" class="nav__link">Sponzori</a>
+        <a href="#" class="nav__link">Kontakt</a>
+      </div>
+    </div>
   </body>
 </html>
