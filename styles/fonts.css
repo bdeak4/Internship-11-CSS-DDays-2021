@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Fuse V.2 Display";
-  src: url("./assets/fontovi/FuseV.2Display-Bold.otf") format("opentype");
+  src: url("../assets/fontovi/FuseV.2Display-ExtraBold.otf") format("opentype");
   font-weight: 800;
   font-display: swap;
 }
@@ -9,6 +9,6 @@
   font-family: "Fuse V.2 Display";
   font-style: normal;
   font-weight: 400;
-  src: url("./assets/fonts/FuseV.2Display-Regular.otf") format("opentype");
+  src: url("../assets/fontovi/FuseV.2Display-Regular.otf") format("opentype");
   font-display: swap;
 }

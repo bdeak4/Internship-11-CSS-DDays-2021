@@ -9,8 +9,49 @@
 
 body {
   font-family: "Fuse V.2 Display";
+  font-size: 16px;
+  line-height: 24px;
   background-color: #0a181b;
   color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-style: normal;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 77px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 58px;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h5 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.p1 {
+  font-size: 20px;
+  line-height: 30px;
 }
 
 a {
@@ -27,15 +68,11 @@ button {
   cursor: pointer;
   background: #30cec2;
   border-radius: 15px;
-  position: absolute;
-  width: 131px;
-  height: 48px;
-  font-family: "Fuse V.2 Display";
-  font-style: normal;
   font-weight: 800;
   font-size: 16px;
   color: #0a181b;
   border-radius: 15px;
+  padding: 12px 32px;
 }
 
 button:hover {
