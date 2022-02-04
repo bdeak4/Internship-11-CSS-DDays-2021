@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+*::selection {
+  background-color: rgba(94, 196, 188, 0.4);
+}
+
 body {
   font-family: "Fuse V.2 Display";
   font-size: 16px;
@@ -48,4 +52,33 @@ h5 {
 .p1 {
   font-size: 20px;
   line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.layout-spacing {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background: #30cec2;
+  border-radius: 15px;
+  font-weight: 800;
+  font-size: 16px;
+  color: #0a181b;
+  border-radius: 15px;
+  padding: 12px 32px;
+}
+
+button:hover {
+  background: #35e5d8;
+}
+
+button:active {
+  background: #20afa4;
 }
