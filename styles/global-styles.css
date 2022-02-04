@@ -1,9 +1,16 @@
 * {
-  background-color: #0a181b;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 *::selection {
   background-color: rgba(94, 196, 188, 0.4);
+}
+
+body {
+  font-family: "Fuse V.2 Display";
+  background-color: #0a181b;
+  color: #ffffff;
 }
 
 a {
