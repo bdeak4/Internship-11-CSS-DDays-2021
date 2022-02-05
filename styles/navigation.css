@@ -1,11 +1,21 @@
-.nav {
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.nav-wrapper {
+  padding: 16px 100px;
   position: sticky;
   top: 0;
   background-color: #0a181b;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1100px) {
+  .nav-wrapper {
+    padding: 16px;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav > *:not(.nav__popup) {
