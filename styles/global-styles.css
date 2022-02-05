@@ -29,6 +29,13 @@ h1 {
   line-height: 77px;
 }
 
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+}
+
 h2 {
   font-size: 48px;
   line-height: 58px;
@@ -54,6 +61,13 @@ h5 {
   line-height: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  .p1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -72,7 +86,6 @@ button {
   font-weight: 800;
   font-size: 16px;
   color: #0a181b;
-  border-radius: 15px;
   padding: 12px 32px;
 }
 
