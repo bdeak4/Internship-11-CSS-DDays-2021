@@ -1,0 +1,94 @@
+.apply {
+  padding: 157px 0 0 205px;
+}
+
+.apply__title {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.apply--wrapper {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 220px;
+}
+
+.apply__info--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 400px;
+}
+
+.apply__info {
+  margin-top: 130px;
+  position: relative;
+}
+
+.apply__info:nth-child(4) {
+  margin-bottom: 80px;
+}
+
+.apply__info__icon {
+  position: absolute;
+  top: -26px;
+  left: -40px;
+  z-index: -1;
+}
+
+.apply__info__description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Fuse V.2 Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.apply__image {
+  position: sticky;
+  top: 30px;
+  width: 100%;
+  content: url("../assets/phone.png");
+}
+
+@media screen and (max-width: 1180px) {
+  .apply {
+    padding: 0 31px 0 44px;
+  }
+  .apply--wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .apply__image {
+    position: unset;
+    width: 100%;
+    height: auto;
+    content: url("../assets/phone-mobile.png");
+  }
+  .apply__info {
+    margin-top: 48px;
+  }
+  .apply__info:first-child {
+    margin-top: 63px;
+  }
+  .apply__info:nth-child(4) {
+    margin-bottom: 48px;
+  }
+  .apply__info--wrapper {
+    width: 100%;
+  }
+  .apply__info__title {
+    font-size: 24px;
+  }
+  .apply__info__icon {
+    width: 40px;
+    height: auto;
+    top: -7px;
+    left: -24px;
+  }
+  .apply__info--wrapper button {
+    align-self: center;
+  }
+}
