@@ -197,3 +197,13 @@
   top: -110px;
   right: 30px;
 }
+
+@media screen and (max-width: 1200px) {
+  .supporters__element-ball,
+  .supporters__element-upside-down-bridge,
+  .supporters__element-coin,
+  .supporters__element-cylinder,
+  .supporters__element-big-ball {
+    display: none;
+  }
+}
