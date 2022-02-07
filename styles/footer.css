@@ -22,7 +22,8 @@
 }
 
 .footer__copyright,
-.footer__icon--wrapper {
+.footer__icon--wrapper,
+.footer__icon--wrapper * {
   background-color: transparent;
 }
 
