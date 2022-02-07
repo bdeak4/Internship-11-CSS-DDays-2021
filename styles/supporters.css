@@ -15,6 +15,7 @@
   display: flex;
   justify-content: flex-start;
   margin-bottom: 160px;
+  position: relative;
 }
 
 .supporters__golden-sponsor:nth-child(2) {
@@ -123,6 +124,7 @@
   justify-content: center;
   align-items: center;
   list-style-type: none;
+  position: relative;
 }
 
 .supporters__other-sponsor--wrapper:last-child {
@@ -154,4 +156,44 @@
   .supporters__other-sponsor--wrapper:last-child {
     margin-bottom: 140px;
   }
+}
+
+.supporters__element-ball {
+  width: 306px;
+  height: 306px;
+  position: absolute;
+  bottom: -180px;
+  right: -100px;
+}
+
+.supporters__element-upside-down-bridge {
+  width: 171px;
+  height: 171px;
+  position: absolute;
+  bottom: -165px;
+  left: -72px;
+}
+
+.supporters__element-coin {
+  width: 329px;
+  height: 329px;
+  position: absolute;
+  bottom: -230px;
+  right: -120px;
+}
+
+.supporters__element-cylinder {
+  width: 204px;
+  height: 204px;
+  position: absolute;
+  bottom: -190px;
+  left: 100px;
+}
+
+.supporters__element-big-ball {
+  width: 216px;
+  height: 216px;
+  position: absolute;
+  top: -110px;
+  right: 30px;
 }
