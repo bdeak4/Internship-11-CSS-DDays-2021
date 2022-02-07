@@ -21,6 +21,11 @@
   padding-right: 50px;
 }
 
+.footer__copyright,
+.footer__icon--wrapper {
+  background-color: transparent;
+}
+
 .footer__icon {
   margin-right: 35px;
 }
