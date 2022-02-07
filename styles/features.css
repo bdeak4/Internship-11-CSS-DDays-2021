@@ -58,11 +58,12 @@
   position: absolute;
   top: -30px;
   left: -40px;
-  z-index: -1;
 }
 
 .card__title {
   margin-bottom: 16px;
+  background-color: transparent;
+  position: relative;
 }
 
 @media screen and (max-width: 768px) {
