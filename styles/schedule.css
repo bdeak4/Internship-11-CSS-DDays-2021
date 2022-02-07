@@ -52,8 +52,9 @@
 .filters {
   display: flex;
   justify-content: center;
-  overflow-x: scroll;
+  overflow-x: auto;
   padding: 16px 30px;
+  margin-bottom: 48px;
 }
 
 .filter {
@@ -82,4 +83,65 @@
 .filter:hover {
   border-color: #30cec2;
   color: #30cec2;
+}
+
+.schedule {
+  padding: 0 205px;
+  margin-bottom: 500px;
+}
+
+.schedule__card {
+  margin-bottom: 16px;
+}
+
+.schedule__card--simple {
+  display: flex;
+  align-items: baseline;
+  padding: 8px 40px;
+}
+
+.schedule__card--complex {
+  background-color: #162426;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 24px 40px;
+}
+
+.schedule__card--complex * {
+  background-color: inherit;
+}
+
+.schedule__card__header {
+  display: flex;
+  align-items: center;
+}
+
+.schedule__card__time {
+  width: 105px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.schedule__card__tag {
+  background-color: #30cec2;
+  border-radius: 6px;
+  color: #0a181b;
+  padding: 4px 8px;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 112.8%;
+  margin-right: 8px;
+}
+
+.schedule__card__description {
+  margin-left: 105px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.schedule__card__expand {
+  margin-left: 12px;
+  transition: transform 500ms ease-in-out;
+}
+
+.schedule__card--complex:hover .schedule__card__expand {
+  transform: rotate(calc(180deg + 360deg * 2));
 }
