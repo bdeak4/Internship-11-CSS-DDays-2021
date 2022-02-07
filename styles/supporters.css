@@ -103,6 +103,11 @@
   .supporters__golden-sponsor__info__description {
     margin-bottom: 23px;
   }
+  .supporters__golden-sponsor__info__badge {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 3px 16px;
+  }
 }
 
 @media screen and (max-width: 375px) {
