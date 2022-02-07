@@ -1,0 +1,167 @@
+.past {
+  overflow: scroll;
+  overflow-y: hidden;
+  display: flex;
+  margin-bottom: 178px;
+}
+
+.past__title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.past__collage {
+  display: grid;
+  height: 600px;
+  grid-template-areas:
+    "a b b c c d"
+    "e e f g h h";
+  gap: 24px;
+  margin: 0 24px 68px 24px;
+  position: relative;
+}
+
+.past__collage:first-child {
+  margin-left: 30px;
+}
+
+.past__collage::before {
+  content: "";
+  position: absolute;
+  height: 634px;
+  left: -24px;
+  border-left: 2px dashed #fff;
+}
+
+.past__collage::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+  left: -31px;
+  bottom: -58px;
+}
+
+.past__collage__year {
+  position: absolute;
+  bottom: -60px;
+  text-decoration: underline;
+  color: #30cec2;
+}
+
+.past__collage__item {
+  border-radius: 30px;
+  background-size: cover;
+}
+
+.a {
+  grid-area: a;
+  background: url("../assets/grid1.png");
+}
+
+.b {
+  grid-area: b;
+  background-image: url("../assets/grid2.png");
+}
+
+.c {
+  grid-area: c;
+  background-image: url("../assets/grid3.png");
+}
+
+.d {
+  grid-area: d;
+}
+
+.e {
+  grid-area: e;
+  background-image: url("../assets/grid4.png");
+}
+
+.f {
+  grid-area: f;
+}
+
+.g {
+  grid-area: g;
+  background-image: url("../assets/grid5.png");
+}
+
+.h {
+  grid-area: h;
+  background-image: url("../assets/grid6.png");
+}
+
+.d,
+.f {
+  background: rgba(255, 255, 255, 0.03);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d,
+.f,
+.past__collage__year {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.a,
+.d,
+.f,
+.g {
+  width: 295px;
+}
+
+.b,
+.c,
+.e,
+.h {
+  width: 590px;
+}
+
+@media screen and (max-width: 768px) {
+  .past {
+    margin-bottom: 46px;
+  }
+  .past__title {
+    margin-bottom: 58px;
+  }
+  .past__collage {
+    height: 300px;
+    gap: 14px;
+  }
+  .past__collage:first-child {
+    margin-left: 32px;
+  }
+  .past__collage::before {
+    left: -24px;
+  }
+  .past__collage::before {
+    height: 334px;
+  }
+  .past__collage__item {
+    border-radius: 15px;
+  }
+  .a,
+  .d,
+  .f,
+  .g {
+    width: calc(295px / 2);
+  }
+
+  .b,
+  .c,
+  .e,
+  .h {
+    width: calc(590px / 2);
+  }
+  .d,
+  .f,
+  .past__collage__year {
+    font-size: 16px;
+  }
+}
